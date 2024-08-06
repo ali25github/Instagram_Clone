@@ -1,0 +1,26 @@
+.timeline {
+    display: flex;
+    flex-direction: row;
+}
+.timeline__left {
+    width: 70%;
+}
+.timeline__right {
+    width: 30%;
+}
+@media (min-width: 900px) {
+    .timeline__left {
+        width: 70%;
+    }
+    .timeline__right {
+        width: 30%;
+    }
+}
+@media (max-width: 767px) {
+    .timeline__left {
+        width: 80%;
+    }
+    .timeline__right {
+        display: none;
+    }
+}
